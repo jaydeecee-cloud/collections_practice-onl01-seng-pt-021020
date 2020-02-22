@@ -2,10 +2,7 @@ def sort_array_asc(array)
   array.sort
 end
 
-def sort_array_desc(array)
-  array.sort
-  array.reverse
-end
+
 
 def swap_elements(array)
   array[1..2] = array[1..2].sort do |a,b|
