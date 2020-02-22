@@ -25,12 +25,6 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array.each do |item|
-    item[3] = "$"
-  end
-end
-
 test_array = [1,2,3,4]
 string_test = ["blake", "ashley", "scott"]
 
