@@ -15,7 +15,11 @@ def swap_elements(array)
   array
 end
 
-
+def sort_array_char_count(array)
+  array.sort do |left, right|
+    left.length <=> right.length
+  end
+end
 
 test_array = [1,2,3,4]
 string_test = ["blake", "ashley", "scott"]
