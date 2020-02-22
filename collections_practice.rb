@@ -17,6 +17,7 @@ end
 
 def sort_array_char_count(array)
   array.sort.reverse
+  
 end
 
 test_array = [1,2,3,4]
