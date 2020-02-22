@@ -21,6 +21,8 @@ def sort_array_char_count(array)
   end
 end
 
+
+
 test_array = [1,2,3,4]
 string_test = ["blake", "ashley", "scott"]
 
