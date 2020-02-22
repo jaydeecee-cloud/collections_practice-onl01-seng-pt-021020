@@ -17,7 +17,7 @@ end
 
 def sort_array_char_count(array)
   array.sort.reverse
-  swap_elements_from_to(["cat", "dogs", "Horses"],0,1)
+  swap_elements_from_to(["cat", "dogs", "Horses"],1,0)
 end
 
 test_array = [1,2,3,4]
